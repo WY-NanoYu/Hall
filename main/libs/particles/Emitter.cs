@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace particles
 {
-    public class Class1
+    public class Emitter
     {
     }
 }

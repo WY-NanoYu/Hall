@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "main", "main\main.csproj", "{5CDB8CFE-090D-494A-B450-6F38E397C861}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "particles", "libs\particles\particles.csproj", "{1FBBCACF-EA9A-4E5D-A1B7-8BF0A75D1259}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5CDB8CFE-090D-494A-B450-6F38E397C861}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CDB8CFE-090D-494A-B450-6F38E397C861}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CDB8CFE-090D-494A-B450-6F38E397C861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBBCACF-EA9A-4E5D-A1B7-8BF0A75D1259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBBCACF-EA9A-4E5D-A1B7-8BF0A75D1259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBBCACF-EA9A-4E5D-A1B7-8BF0A75D1259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBBCACF-EA9A-4E5D-A1B7-8BF0A75D1259}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
