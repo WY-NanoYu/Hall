@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="particles">
+      <HintPath>..\..\..\..\c#\libs libs libs\particles.dll</HintPath>
+    </Reference>
     <Reference Include="sfmlnet-audio-2">
       <HintPath>..\..\..\..\c#\libs libs libs\SFML\SFML.Net 2.1\lib\sfmlnet-audio-2.dll</HintPath>
     </Reference>
