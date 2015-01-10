@@ -4,20 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using main.abilities;
+
 
 namespace main
 {
-    public class player
+    namespace abilities
     {
-        double x, y;
-        float basev;
-
-        public float v
+        class active_ab:ability
         {
-            get
-            {
-                return basev;
-            }
         }
     }
 }

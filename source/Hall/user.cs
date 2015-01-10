@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace main
 {
     static class user
     {
+        
         static double x, y;
         static float basev;
 

@@ -7,17 +7,11 @@ using System.Threading.Tasks;
 
 namespace main
 {
-    public class player
+    namespace abilities
     {
-        double x, y;
-        float basev;
-
-        public float v
+        public class ability
         {
-            get
-            {
-                return basev;
-            }
+            static string name, discription;
         }
     }
 }

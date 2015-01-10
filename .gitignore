@@ -13,10 +13,20 @@
 [Rr]eleases/
 x64/
 x86/
-build/
 bld/
 [Bb]in/
 [Oo]bj/
+build/main.vshost.exe
+main.pdb
+particles.pdb
+main.vshost.exe
+main.vshost.exe.config
+main.vshost.exe.manifest
+main.exe.config
+
+
+#notes
+notes/
 
 # Roslyn cache directories
 *.ide/

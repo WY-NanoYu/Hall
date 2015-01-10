@@ -1,0 +1,23 @@
+<tileset>
+	
+	<size>32</size>
+	<texture_dir>default</texture_dir><!--> "default" voor standaard texture pack<!-->
+	
+	<tiles>
+		<tile>
+			<id>0</id>
+			<texture>grass.PNG</texture>
+			<effect_id></effect_id>
+		</tile>
+		<tile>
+			<id>1</id>
+			<texture>brick.PNG</texture>
+			<effect_id></effect_id>
+		</tile>
+		<tile>
+			<id>2</id>
+			<texture>portal.PNG</texture>
+			<effect_id></effect_id>
+		</tile>
+	</tiles>
+</tileset>

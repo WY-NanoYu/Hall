@@ -1,0 +1,58 @@
+<world>
+	<name>demoworld</name>
+	<creator>NighttimeFox</creator>
+	<discription>a world to test new features</discription>
+	<tileset>default</tileset>
+	<entity_set>default</entity_set>
+	<spawn_zone_id>0</spawn_zone_id>
+	<spawn_x>2</spawn_x>
+	<spawn_y>2</spawn_y>
+	
+	<zones>
+		<zone>
+			<id>0</id>
+			<name>zone 1</name>
+			<subname>the first test zone</subname>
+			<size_x>9</size_x>
+			<size_y>5</size_y>
+			<tiles>
+				1,1,1,1,1,1,1,1,1;
+				1,0,0,0,0,0,0,0,1;
+				1,0,0,0,0,0,0,0,1;
+				1,0,0,0,0,0,0,2,1;
+				1,1,1,1,1,1,1,1,1
+			</tiles>
+			<warptiles>
+				<warptile>
+					<location_x>8</location_x>
+					<location_y>4</location_y>
+					<destination_zone_id>1</destination_zone_id>  
+					<destination_x>2</destination_x>  
+					<destination_y>2</destination_y>  
+				</warptile>
+			</warptiles>
+		</zone>
+		
+		<zone>
+			<id>1</id>
+			<name>zone 2</name>
+			<subname>the second test zone</subname>
+			<size_x>9</size_x>
+			<size_y>3</size_y>
+			<tiles>
+				1,1,1,1,1,1,1,1,1;
+				1,0,0,0,0,0,0,2,1;
+				1,1,1,1,1,1,1,1,1
+			</tiles>
+			<warptiles>
+				<warptile>
+					<location_x>8</location_x>
+					<location_y>2</location_y>
+					<destination_zone_id>0</destination_zone_id>  
+					<destination_x>2</destination_x>  
+					<destination_y>3</destination_y>  
+				</warptile>
+			</warptiles>
+		</zone>
+	</zones>
+</world>
